@@ -27,7 +27,7 @@ The application follows these steps to provide responses to your questions:
 
 ## Dependencies and Installation
 ----------------------------
-To install the MultiPDF Chat App, please follow these steps:
+To install the Call to Allah Chat App, please follow these steps:
 
 1. Clone the repository to your local machine.
 
@@ -43,7 +43,7 @@ OPENAI_API_KEY=your_secrit_api_key
 
 ## Usage
 -----
-To use the MultiPDF Chat App, follow these steps:
+To use the Call to Allah Chat App, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
 
