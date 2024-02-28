@@ -58,22 +58,6 @@ To use the MultiPDF Chat App, follow these steps:
 ------------
 This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
 
-## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
- 14 changes: 14 additions & 0 deletions14  
-requirements.txt
-@@ -0,0 +1,14 @@
-langchain==0.0.184
-PyPDF2==3.0.1
-python-dotenv==1.0.0
-streamlit==1.18.1
-openai==0.27.6
-faiss-cpu==1.7.4
-altair==4
-tiktoken==0.4.0
-# uncomment to use huggingface llms
-# huggingface-hub==0.14.1
 
 # uncomment to use instructor embeddings
 # InstructorEmbedding==1.0.1
