@@ -1,17 +1,14 @@
-# Call To Allah 
+# MultiPDF Chat App
 
-The Digital Sufi Companion
-
+> You can find the tutorial for this project on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
 ## Introduction
 ------------
-The Digital Sufi Companion is a groundbreaking initiative that harnesses the power of artificial
-intelligence (AI) and Sufi wisdom to provide individuals with a source of guidance, support,
-and solace in their journey towards mental and spiritual well-being. It aims to bridge the gap
-between the timeless teachings of Sufism and the modern world, offering a readily accessible
-platform for individuals to seek answers to life’s challenges and find inner peace.
+The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
 
 ## How It Works
 ------------
+
+![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
 
 The application follows these steps to provide responses to your questions:
 
@@ -27,7 +24,7 @@ The application follows these steps to provide responses to your questions:
 
 ## Dependencies and Installation
 ----------------------------
-To install the Call to Allah Chat App, please follow these steps:
+To install the MultiPDF Chat App, please follow these steps:
 
 1. Clone the repository to your local machine.
 
@@ -43,7 +40,7 @@ OPENAI_API_KEY=your_secrit_api_key
 
 ## Usage
 -----
-To use the Call to Allah Chat App, follow these steps:
+To use the MultiPDF Chat App, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
 
@@ -57,3 +54,28 @@ To use the Call to Allah Chat App, follow these steps:
 4. Load multiple PDF documents into the app by following the provided instructions.
 
 5. Ask questions in natural language about the loaded PDFs using the chat interface.
+
+## Contributing
+------------
+This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
+
+## License
+-------
+The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
+ 14 changes: 14 additions & 0 deletions14  
+requirements.txt
+@@ -0,0 +1,14 @@
+langchain==0.0.184
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+streamlit==1.18.1
+openai==0.27.6
+faiss-cpu==1.7.4
+altair==4
+tiktoken==0.4.0
+# uncomment to use huggingface llms
+# huggingface-hub==0.14.1
+
+# uncomment to use instructor embeddings
+# InstructorEmbedding==1.0.1
+# sentence-transformers==2.2.2
